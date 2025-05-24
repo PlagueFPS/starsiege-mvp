@@ -1,0 +1,19 @@
+  .faq {  
+    @apply flex flex-col w-full bg-zinc-800 p-4 rounded-lg border-none shadow-md shadow-secondary animate-fadeIn font-oxanium;
+  }
+
+  .faqTitle {
+    @apply text-base lg:text-lg text-left font-semibold border-b border-gray-600 pb-2 mb-2 -mt-2 text-secondary font-orbitron;
+  }
+
+  .faq ul {
+    @apply list-disc pl-4;
+  }
+
+  .faq p {
+    @apply text-zinc-300 text-sm lg:text-base;
+  }
+
+  .faq a {
+    @apply text-secondary underline hover:no-underline;
+  }

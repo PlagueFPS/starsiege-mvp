@@ -1,0 +1,16 @@
+  .container {
+    @apply relative flex justify-center items-center max-w-full border-b border-gray-600 font-orbitron;
+  }
+
+  .figure {
+    @apply h-52 w-full;
+  }
+
+  .image {
+    @apply h-full w-full object-cover object-top animate-fadeIn;
+  }
+
+  .title {
+    @apply absolute max-w-fit max-h-fit text-4xl lg:text-5xl text-center font-bold text-secondary pb-4 drop-shadow-title after:h-0.5 after:w-1/2 
+    after:bg-secondary after:absolute after:bottom-0 after:left-1/4;
+  }

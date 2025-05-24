@@ -1,0 +1,89 @@
+  .footer {
+    @apply relative mt-auto bg-zinc-900 w-full font-orbitron;
+  }
+
+  .container {
+    @apply mx-auto py-8 px-4 max-w-[1600px];
+  }
+
+  .contentContainer {
+    @apply flex flex-wrap justify-between items-center pb-8 w-full border-b border-gray-600;
+  }
+
+  .content {
+    @apply flex flex-col justify-center flex-grow m-8;
+  }
+
+  .contentTitle {
+    @apply mx-2 mb-4 text-2xl text-center text-gray-100 font-semibold;
+  }
+
+  .contentLinks {
+    @apply flex justify-center items-center;
+  }
+
+  .contentLink svg {
+    @apply h-16 w-16 fill-secondary rounded-lg transition-all p-4 hover:fill-gray-100;
+  }
+
+  .middleContainer {
+    @apply flex flex-col items-center justify-center flex-wrap w-full py-12;
+  }
+
+  .logoContainer {
+    @apply flex flex-col items-center w-full max-w-[360px] mb-8;
+  }
+
+  .logo img {
+    @apply h-auto w-full;
+  }
+
+  .list {
+    @apply flex flex-col md:flex-row justify-center items-center gap-4 list-none w-full max-w-[300px] m-8;
+  }
+
+  .list li {
+    @apply flex mb-2;
+  }
+
+  .list li a {
+    @apply flex justify-center w-44 text-center items-center p-2 ml-2 text-primary font-bold
+    bg-secondary text-sm;
+  }
+
+  .list li a span {
+    @apply w-full font-semibold;
+  }
+
+  .bottomContainer {
+    @apply flex flex-col text-center justify-between items-center py-8 border-t border-gray-600
+    md:flex-row-reverse md:text-left;
+  }
+
+  .socialsContainer {
+    @apply flex justify-center;
+  }
+
+  .socialLink {
+    @apply flex justify-center items-center gap-2;
+  }
+
+  .socialLink svg {
+    @apply h-[30px] fill-secondary;
+  }
+
+  .copyrightContainer {
+    @apply flex flex-col justify-center flex-grow p-0 m-8 text-xs font-oxanium;
+  }
+
+  .copyrightContainer span {
+    @apply max-w-[500px];
+  }
+
+  .copyrightContainer > a {
+    @apply capitalize mr-2;
+  }
+
+  .copyright {
+    @apply text-gray-400;
+  }

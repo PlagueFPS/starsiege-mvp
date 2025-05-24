@@ -1,0 +1,20 @@
+  .container {
+    @apply border-b border-gray-600 h-[80vh] max-w-full font-orbitron;
+  }
+
+  .featuredBanner {
+    @apply relative flex flex-col justify-center items-center w-full h-full;
+  }
+
+  .featuredImage {
+    @apply absolute top-0 left-0 right-0 bottom-0 w-full h-full;
+  }
+
+  .featuredDetails {
+    @apply relative flex flex-col justify-center items-center mr-auto p-4 h-full w-full z-[1]
+    md:max-w-lg lg:bg-gradient-to-r lg:from-black lg:to-transparent;
+  }
+
+  .featuredBrandmark {
+    @apply flex justify-center items-center mb-auto w-full md:mb-0 md:mt-auto;
+  }

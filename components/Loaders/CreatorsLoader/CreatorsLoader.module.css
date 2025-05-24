@@ -1,0 +1,75 @@
+.container {
+  @apply flex flex-col gap-2 p-4 w-[80ch] mx-auto justify-center items-center;
+}
+
+.image {
+  @apply fixed top-0 left-0 right-0 bottom-0 h-screen w-screen bg-zinc-950 -z-10 animate-pulse;
+}
+
+.body {
+  @apply flex flex-col gap-4 p-8 bg-zinc-800 h-[80vh] w-full bg-opacity-95 rounded-lg justify-evenly;
+}
+
+.title {
+  @apply h-10 w-full bg-secondary rounded-lg animate-pulse;
+}
+
+.content {
+  @apply h-12 w-full bg-zinc-700 animate-pulse rounded-lg;
+}
+
+.subTitle {
+  @apply bg-secondary h-6 w-1/3 animate-pulse rounded-lg;
+}
+
+.notice {
+  @apply bg-gray-300 h-6 w-3/5 animate-pulse rounded-lg;
+}
+
+.body ul {
+  @apply flex flex-col gap-2 pl-8 list-disc text-gray-100;
+}
+
+.listItem {
+  @apply h-6 w-4/5 bg-zinc-700 rounded-lg animate-pulse;
+}
+
+.form {
+  @apply flex flex-col gap-4 bg-zinc-800 bg-opacity-95 rounded-lg p-8 mx-4 w-[80ch] md:mx-auto;
+}
+
+.formTitle {
+  @apply h-7 w-1/3 bg-secondary animate-pulse rounded-lg;
+}
+
+.disclaimer {
+  @apply h-6 w-1/2 bg-gray-300 rounded-lg animate-pulse;
+}
+
+.label {
+  @apply bg-secondary h-6 w-1/6 rounded-lg animate-pulse;
+}
+
+.input {
+  @apply bg-zinc-800 border border-gray-100 rounded-md w-full h-10 animate-pulse;
+}
+
+.input.textarea {
+  @apply h-28
+}
+
+.checkbox {
+  @apply flex flex-row-reverse mr-auto gap-2 items-center;
+}
+
+.checkbox div {
+  @apply bg-zinc-700 h-6 w-80 rounded-lg animate-pulse;
+}
+
+.checkbox span {
+  @apply h-3 w-3 bg-gray-300 rounded;
+}
+
+.button {
+  @apply bg-secondary w-full rounded-sm h-11 animate-pulse;
+}

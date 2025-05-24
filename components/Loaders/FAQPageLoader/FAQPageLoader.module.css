@@ -1,0 +1,7 @@
+.container {
+  @apply flex flex-col items-center justify-center w-full mx-auto h-full p-4 gap-4;
+}
+
+.faqContainer {
+  @apply flex flex-col gap-12 items-center justify-center w-full max-w-3xl h-full;
+}

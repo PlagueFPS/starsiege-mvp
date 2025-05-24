@@ -1,0 +1,44 @@
+  .container {
+    @apply relative flex flex-col bg-zinc-900 max-w-sm h-[450px] border-y-4 border-secondary border-x-4 border-x-zinc-800 animate-fadeIn font-oxanium
+    after:h-6 after:w-6 after:bg-primary after:absolute after:-top-[13px] after:-right-[13px] after:border-b-4 after:border-secondary after:rotate-45
+    before:h-6 before:w-6 before:bg-primary before:absolute before:-top-[13px] before:-left-[13px] before:border-b-4 before:border-secondary before:-rotate-45 cursor-pointer
+    hover:border-x-secondary hover:bg-secondary hover:bg-opacity-10 transition-all;
+  }
+
+  .category {
+    @apply flex justify-center items-center bg-primary px-4 py-2 font-orbitron border-b border-zinc-800;
+  }
+
+  .category.community {
+    @apply text-blue-400;
+  }
+
+  .category.patchNotes {
+    @apply text-red-500;
+  }
+
+  .cardHeader {
+    @apply flex flex-col justify-center items-start w-full p-3 font-orbitron border-t border-zinc-800;
+  }
+
+  .cardBody {
+    @apply flex flex-grow px-3 w-full;
+  }
+
+  .cardFooter {
+    @apply flex justify-center items-center after:h-6 after:w-6 after:bg-primary after:absolute after:-bottom-[13px] after:-right-[13px] after:border-b-4 after:border-secondary 
+    after:rotate-[135deg] before:h-6 before:w-6 before:bg-primary before:absolute before:-bottom-[13px] before:-left-[13px] before:border-b-4 before:border-secondary 
+    before:-rotate-[135deg];
+  }
+
+  .title {
+    @apply text-secondary text-xl font-bold;
+  }
+
+  .date {
+    @apply text-zinc-400 text-sm font-medium;
+  }
+
+  .description {
+    @apply text-gray-300 text-base;
+  }

@@ -1,0 +1,23 @@
+  .form {
+    @apply flex flex-col gap-4 bg-zinc-800 bg-opacity-95 rounded-lg p-8 mx-4 max-w-[80ch] md:mx-auto animate-fadeIn;
+  }
+
+  .title {
+    @apply text-secondary text-xl font-bold uppercase font-orbitron;
+  }
+
+  .disclaimer {
+    @apply text-gray-100 italic;
+  }
+
+  .label {
+    @apply text-secondary font-semibold font-orbitron;
+  }
+
+  .input {
+    @apply bg-zinc-800 text-gray-200 font-oxanium;
+  }
+
+  .checkbox {
+    @apply flex flex-row gap-2 items-center text-xs text-gray-400 my-1 border p-4 rounded-lg;
+  }

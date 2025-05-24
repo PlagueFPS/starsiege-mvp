@@ -1,0 +1,19 @@
+  .form {
+    @apply flex flex-col gap-4 p-4 font-oxanium w-fit md:w-[80ch];
+  }
+
+  .input {
+    @apply bg-zinc-800 text-gray-100 px-4 py-2 rounded-md w-full border-none;
+  }
+
+  .disclaimer {
+    @apply text-gray-400 pl-4 text-xs;
+  }
+
+  .disclaimer a {
+    @apply text-secondary underline hover:no-underline ml-1;
+  }
+
+  .checkbox {
+    @apply flex flex-row gap-2 items-center text-xs text-gray-400;
+  }

@@ -1,0 +1,35 @@
+  .container {
+    @apply flex flex-col gap-2 p-4 max-w-[80ch] mx-auto justify-center items-center font-oxanium;
+  }
+
+  .image {
+    @apply fixed top-0 left-0 right-0 bottom-0 h-full w-full object-cover blur-sm -z-10 animate-fadeIn;
+  }
+
+  .body {
+    @apply flex flex-col gap-4 bg-zinc-800 bg-opacity-95 rounded-lg p-8 animate-fadeIn;
+  }
+
+  .body h1 {
+    @apply text-secondary text-4xl font-bold
+  }
+
+  .body h2 {
+    @apply text-secondary text-xl font-bold mt-4 font-orbitron;
+  }
+  
+  .body h3 {
+    @apply text-white font-semibold;
+  }
+
+  .body a {
+    @apply text-secondary underline hover:no-underline;
+  }
+
+  .body ul {
+    @apply text-gray-200 flex flex-col gap-2 list-disc pl-8;
+  }
+
+  .body p {
+    @apply text-gray-200;
+  }

@@ -1,0 +1,19 @@
+  .section {
+    @apply flex flex-col justify-center items-center w-full p-4 font-orbitron;
+  }
+
+  .sectionTitle {
+    @apply text-secondary capitalize text-2xl text-center font-bold;
+  }
+
+  .sectionContent {
+    @apply p-4 max-w-[50ch] lg:max-w-[80ch] font-oxanium;
+  }
+
+  .sectionText {
+    @apply text-gray-100;
+  }
+
+  .sectionButton {
+    @apply text-primary bg-secondary w-fit p-2 rounded-sm uppercase text-sm font-bold hover:bg-gray-100 transition-all;
+  }

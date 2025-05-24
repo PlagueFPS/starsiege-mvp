@@ -1,0 +1,16 @@
+  .container {
+    @apply flex flex-col gap-4 justify-center items-center h-[50vh] px-2 w-full mx-auto font-orbitron;
+  }
+
+  .title {
+    @apply text-secondary text-2xl font-bold;
+  }
+
+  .text {
+    @apply text-gray-300 text-center font-oxanium;
+  }
+
+  .button {
+    @apply flex justify-center items-center p-3 w-fit text-primary font-bold
+    rounded-sm bg-secondary text-sm cursor-pointer hover:bg-gray-100 transition-all;
+  }

@@ -1,0 +1,59 @@
+.container {
+  @apply flex flex-col gap-2 p-4 max-w-[80ch] mx-auto justify-center items-center font-oxanium animate-fadeIn;
+}
+
+.header {
+  @apply flex flex-col gap-2 items-start justify-center w-full font-orbitron;
+}
+
+.title {
+  @apply text-secondary text-3xl md:text-4xl font-bold;
+}
+
+.date {
+  @apply text-zinc-400 text-base font-semibold;
+}
+
+.body {
+  @apply flex flex-col gap-4 bg-zinc-800 rounded-lg p-8;
+}
+
+.body h2 {
+  @apply text-secondary text-xl font-bold mt-4 font-orbitron;
+}
+
+.body h3 {
+  @apply text-white font-semibold;
+}
+
+.body a {
+  @apply text-secondary underline hover:no-underline;
+}
+
+.body figure {
+  @apply flex flex-col items-center justify-center mx-auto;
+}
+
+.body figure figcaption {
+  @apply text-gray-100 text-sm text-center italic;
+}
+
+.body ul {
+  @apply text-gray-200 flex flex-col gap-2 list-disc pl-8;
+}
+
+.body ul h3 {
+  @apply text-white font-semibold;
+}
+
+.body p {
+  @apply text-gray-200;
+}
+
+.body ul ul {
+  @apply mt-2 list-[circle];
+}
+
+.body ul ul p {
+  @apply text-gray-300;
+}
